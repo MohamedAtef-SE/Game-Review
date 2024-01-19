@@ -10,7 +10,7 @@ fetchAPI(url);
 
 
 
-document.querySelectorAll('.navbar-nav .nav-item');
+const navBtns = document.querySelectorAll('.navbar-nav .nav-item');
 navBtns.forEach((btn) => {
     btn.addEventListener('click', function (e) {
         const url = `https://free-to-play-games-database.p.rapidapi.com/api/games?category=${e.target.innerText.toLowerCase()}`;
