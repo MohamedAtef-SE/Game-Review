@@ -53,6 +53,11 @@ h1 {
 
 
 
+.navbar .navbar-collapse .navbar-nav li.active {
+    color: lightgray !important;
+}
+
+
 
 /* =========================================== */
 
